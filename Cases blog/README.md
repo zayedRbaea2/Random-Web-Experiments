@@ -1,6 +1,6 @@
 # Cases blog
 
-!Preview.png
+![Preview](CasesBlog/Preview/Preview.png)
 
 ## Overview
 A simple web application designed to track status during a session.  
