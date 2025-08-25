@@ -1,6 +1,6 @@
 # Cases blog
 
-![Preview](Preview.png)
+!Preview.png
 
 ## Overview
 A simple web application designed to track status during a session.  
@@ -21,6 +21,7 @@ The app allows you to:
 3. Click **Save Data** to download a `.txt` file containing all current records.
 
 ## File Structure
+
 
 
 
