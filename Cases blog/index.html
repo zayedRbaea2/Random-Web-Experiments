@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدونة</title>
+    <link rel="icon" href="companylogo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="clock" id="clock"></div>
+    <div class="lists-container">
+        <div class="container">
+            <h1>II</h1>
+            <div class="form-group">
+                <input type="text" id="nameInput1" placeholder=" إدخل اسم ">
+                <select id="statusInput1">
+                    <option value="not-migrated">لم يتم </option>
+                    <option value="migrated">تم </option>
+                </select>
+                <button onclick="addEmployee('nameInput1', 'statusInput1', 'employeeList1')">إضافة اسم</button>
+                <button onclick="saveDataToFile('employeeList1', 'II')">حفظ البيانات</button>
+            </div>
+            <ul id="employeeList1"></ul>
+        </div>
+
+        <div class="container">
+            <h1>I</h1>
+            <div class="form-group">
+                <input type="text" id="nameInput2" placeholder=" ادخل اسم ">
+                <select id="statusInput2">
+                    <option value="not-migrated">لم يتم </option>
+                    <option value="migrated">تم </option>
+                </select>
+                <button onclick="addEmployee('nameInput2', 'statusInput2', 'employeeList2')">إضافة اسم</button>
+                <button onclick="saveDataToFile('employeeList2', 'I')">حفظ البيانات</button>
+            </div>
+            <ul id="employeeList2"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
