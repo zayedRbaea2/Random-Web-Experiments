@@ -1,4 +1,4 @@
-# Employee Migration Tracker
+# Cases blog
 
 ![Preview](4165b8c9-a38a-4134-a01b-e8669e9ee5de.png)
 
@@ -21,3 +21,4 @@ The app allows you to:
 3. Click **Save Data** to download a `.txt` file containing all current records.
 
 ## File Structure
+
